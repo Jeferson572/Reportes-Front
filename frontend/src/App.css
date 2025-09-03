@@ -1,0 +1,140 @@
+/* Fondo general */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url("../public/Fondo.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Contenedor principal */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem;
+  min-height: 100vh;
+  backdrop-filter: blur(2px);
+}
+
+/* Cabecera */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  height: 130px;
+  margin-right: 10px;
+}
+
+.logo-small {
+  height: 130px;
+}
+
+.divider {
+  width: 2px;
+  height: 60px;
+  background-color: white;
+}
+
+/* Título */
+.title {
+  color: white;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Formulario */
+.form-container {
+  background: #85aacd;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: grid;
+  /* flex-direction: column; */
+  margin-bottom: 0.5rem;
+    align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  grid-template-columns: 150px 1fr;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* Botón */
+.btn-download {
+  background-color: #446899;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  width: 80%;
+  transition: background 0.3s ease;
+  font-weight: 700;
+  align-self: center;
+  margin-top: 1.5rem;
+}
+
+.btn-download:hover {
+  background-color: #003580;
+}
+
+
+.form-group label {
+  flex: 1;
+  font-weight: 600;
+  color: #fff; /*Texto blanco como en la maqueta*/
+  font-size: 1rem;
+  text-align: left; /* etiqueta alineada a la izquierda */
+}
+
+
+.form-group input,
+.form-group select {
+  max-width: 220px;
+  width: 220px;
+  padding: 0.3rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  outline: none;
+  background: #fff;
+  color: #747070;
+  box-sizing: border-box;
+  margin-left: 40px;
+}
+
+input[type="date"] {
+  appearance: none;   /* quita estilos por defecto */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 0.5rem; /* ajusta para que no desplace tanto por el ícono */
+  border-color: rgb(207, 58, 58);
+}
