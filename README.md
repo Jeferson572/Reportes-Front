@@ -24,7 +24,7 @@ npm start
 
 ##Imagen formulario 
 
-<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/825837c6-b5bf-4f9b-a1e5-1fe2c4abb289" />
+<img width="1910" height="868" alt="image" src="https://github.com/user-attachments/assets/1cb5b95c-70d9-437c-acd3-5006b16f4d2d" />
 
 ## Estructura del proyecto
 
